@@ -99,7 +99,8 @@ namespace SnakeBite.GzsTool
                 "lng2",
                 "mtard",
                 "obrb",
-                "dfrm"
+                "dfrm",
+                "gani",//rlc €GZ
             }},
               {"fpkd",new List<string> {
                 "fox2",
