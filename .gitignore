@@ -237,3 +237,9 @@ $RECYCLE.BIN/
 *.lnk
 *.vsidx
 *.lock
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
