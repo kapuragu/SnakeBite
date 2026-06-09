@@ -268,7 +268,7 @@ namespace SnakeBite
         public bool IsUpToDate(Version ModVersion) //shouldn't be in settingsmanager
         {
             bool isUpToDate = ModManager.GetMGSVersion() == ModVersion;
-            bool isSpecialCase = ModVersion == new Version(0, 0, 0, 0) || ModVersion == new Version(1, 0, 15, 2) || ModVersion == new Version(1, 0, 15, 4); // GAMEVERSION 1.0.15.2 vs .3 was just an exe change, so allow .2 -rlc almost nothing changed in 4 too
+            bool isSpecialCase = ModVersion == new Version(0, 0, 0, 0) || ModVersion == new Version(1, 0, 15, 2) || ModVersion == new Version(1, 0, 15, 3); // GAMEVERSION 1.0.15.2 vs .3 was just an exe change, so allow .2 -rlc almost nothing changed in 4 too
             return isUpToDate || isSpecialCase;
         }
 
