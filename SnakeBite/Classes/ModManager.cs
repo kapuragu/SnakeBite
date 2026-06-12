@@ -398,7 +398,7 @@ namespace SnakeBite
             {
                 chunkSize = new FileInfo(chunkCheckPath).Length;
                 texSize = new FileInfo(texCheckPath).Length;
-                if (chunkSize >= 345000000 && texSize >= 250000000)
+                if (chunkSize >= 492000000 && texSize >= 260000000)
                 {
                     archiveState = 1; // Good State
                 }
